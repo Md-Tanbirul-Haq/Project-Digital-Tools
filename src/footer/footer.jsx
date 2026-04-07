@@ -6,10 +6,10 @@ import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
     return (
         <div className='bg-black text-white'>
-            <div className='grid grid-cols-2 md:grid-cols-5 justify-items-center  py-10 px-5'>
-                <div>
+            <div className='flex justify-between flex-wrap gap-5 py-10 px-5'>
+                <div className='w-[300px]'>
                     <h1 className='text-4xl font-bold'>DigitalTools</h1>
-                    <p>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
+                    <p className='text-justify'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
                 </div>
                 <div>
                     <h2 className='text-2xl font-bold'>Product</h2>

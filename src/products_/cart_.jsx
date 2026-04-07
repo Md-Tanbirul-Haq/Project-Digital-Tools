@@ -4,7 +4,7 @@ import React from 'react';
 const Cart_ = ({ data_ }) => {
     return (
         <div >
-            <div className='flex justify-between'>
+            <div className='flex justify-between bg-neutral-300 p-5 rounded-lg'>
                 <div className='flex gap-2'>
 
                     <img className='w-[30px]' src={data_.icon} alt="" />

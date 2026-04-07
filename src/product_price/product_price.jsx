@@ -8,8 +8,8 @@ const Product_price = () => {
                 <h1 className='text-4xl font-bold'>Simple, Transparent Pricing</h1>
                 <p>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-5 w-11/12 md:w-8/12 mx-auto '>
-                <div className="card w-96 bg-base-100 shadow-sm">
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-5 w-11/12 md:w-10/12 mx-auto '>
+                <div className="card w-96 bg-neutral-300 shadow-sm">
                     <div className="card-body">
 
 
@@ -73,7 +73,7 @@ const Product_price = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-base-100 shadow-sm">
+                <div className="card w-96 bg-neutral-300 shadow-sm">
                     <div className="card-body">
 
 
