@@ -23,7 +23,7 @@ const Products_ = ({ products_data, cart_data, setCart_data }) => {
                         data.map((data_, i) => (<Product_ key={i} data_={data_} cart_data={cart_data} setCart_data={setCart_data} total={total} setTotal={setTotal}></Product_>))
 
                     }
-                </div> : cart_data.length == 0 ? <div className='grid grid-cols-1  gap-5 w-11/12  mx-auto border p-5 mb-20'>
+                </div> : cart_data.length == 0 ? <div className='grid grid-cols-1  gap-5 w-11/12   mx-auto border p-5 mb-20'>
                     <h2 className='text-4xl font-bold'>Your Cart :</h2>
                     <p className='text-center'>Cart is empty.</p>
                 </div> : <div className='grid grid-cols-1  gap-5 w-11/12  mx-auto border p-5 mb-20'>
