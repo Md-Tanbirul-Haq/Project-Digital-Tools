@@ -7,7 +7,7 @@ const Product_ = ({ data_, cart_data, setCart_data, total, setTotal }) => {
     }
     return (
         <div>
-            <div className="card w-96 bg-base-100 shadow-sm">
+            <div className="card w-96 bg-neutral-500/50 shadow-sm">
                 <div className="card-body">
                     <div className='flex flex-row-reverse'>
                         <div className='bg-green-200 px-3 py-1 rounded-4xl'>{data_.tag}</div>

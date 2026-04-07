@@ -18,7 +18,7 @@ const Products_ = ({ products_data, cart_data, setCart_data }) => {
             </div>
 
             {
-                product_ == "product" ? <div className='grid grid-cols-1 md:grid-cols-3 gap-5 w-11/12 md:w-8/12 mx-auto  mb-20'>
+                product_ == "product" ? <div className='grid grid-cols-1 md:grid-cols-3 gap-5 w-11/12 md:w-10/12 mx-auto  mb-20'>
                     {
                         data.map((data_, i) => (<Product_ key={i} data_={data_} cart_data={cart_data} setCart_data={setCart_data} total={total} setTotal={setTotal}></Product_>))
 
